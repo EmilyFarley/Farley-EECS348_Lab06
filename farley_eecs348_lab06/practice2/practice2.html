@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 06 Font Control</title>
+    <style>
+        #text-box {
+            padding: 20px;
+            border: 2px solid black;
+            width: 50%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lab 06 Font Control</h2>
+    <p>Enter RGB values (0-255) to set the text color and border color for the paragraph, and adjust the border width.</p>
+    
+
+    <label for="textColor">Text Color (RGB):</label>
+    <input type="number" id="textR" placeholder="R" min="0" max="255">
+    <input type="number" id="textG" placeholder="G" min="0" max="255">
+    <input type="number" id="textB" placeholder="B" min="0" max="255">
+    <br><br>
+
+
+    <label for="borderColor">Border Color (RGB):</label>
+    <input type="number" id="borderR" placeholder="R" min="0" max="255">
+    <input type="number" id="borderG" placeholder="G" min="0" max="255">
+    <input type="number" id="borderB" placeholder="B" min="0" max="255">
+    <br><br>
+
+
+    <label for="borderWidth">Border Width (px):</label>
+    <input type="number" id="borderWidth" placeholder="Width" min="1">
+    <br><br>
+
+
+    <button id="applyButton">Apply Styles</button>
+
+    <div id="text-box">
+        <p>So, my dad’s a magician, and one day he takes me and my friend hiking. I’m a kid, not paying attention, and I slip and fall off this little cliff. Next thing I know, I’m knocked out cold. When I come to, I look up, and there’s my dad—full magician gear, cape, everything—carrying me out of the woods. Imagine being a random hiker, just out for a walk, and you see a magician hauling an unconscious kid out of the forest. I’m sure they were like, “Did he just… make that kid appear?”</p>
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
+
+
